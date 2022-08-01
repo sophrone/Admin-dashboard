@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/pickle-rick.jpeg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="side-bar">
+        <div class="nav-heading click">
+          <img
+            src="./assets/icons/dashboard.png"
+            alt="dashboard"
+            class="dash-image"
+          />Dashboard
+        </div>
+        <div class="nav-bar">
+          <ul class="nav-list nav-styles">
+            <li>
+              <img
+                src="./assets/icons/home.png"
+                alt="home-icon"
+                class="my-icon"
+              />Home
+            </li>
+            <li>
+              <img
+                src="./assets/icons/profile.png"
+                alt="profile-icon"
+                class="my-icon"
+              />Profile
+            </li>
+            <li>
+              <img
+                src="./assets/icons/messages.png"
+                alt="messages-icon"
+                class="my-icon"
+              />Messages
+            </li>
+            <li>
+              <img
+                src="./assets/icons/history.png"
+                alt="history-icon"
+                class="my-icon"
+              />History
+            </li>
+            <li>
+              <img
+                src="./assets/icons/tasks.png"
+                alt="task-icon"
+                class="my-icon"
+              />Tasks
+            </li>
+            <li>
+              <img
+                src="./assets/icons/communities.png"
+                alt="commuinties-icon"
+                class="my-icon"
+              />Communities
+            </li>
+          </ul>
+        </div>
+        <div class="settings-bar">
+          <ul class="settings-list nav-styles">
+            <li>
+              <img
+                src="./assets/icons/settings.png"
+                alt="settings-icon"
+                class="my-icon"
+              />Settings
+            </li>
+            <li>
+              <img
+                src="./assets/icons/support.png"
+                alt="support-icon"
+                class="my-icon"
+              />Support
+            </li>
+            <li>
+              <img
+                src="./assets/icons/privacy.png"
+                alt="privacy-icon"
+                class="my-icon"
+              />Privacy
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="top-header">
+          <div class="search-bar">
+            <div class="search-img click">
+              <input
+                type="image"
+                class="search-icon"
+                src="./assets/icons/search.png"
+                alt="search-icon"
+                form="my-form"
+              />
+            </div>
+            <form action="#" id="my-form" method="get">
+              <input
+                type="text"
+                class="search-input"
+                id="search-result"
+                name="search-result"
+                value=""
+              /><br /><br />
+            </form>
+          </div>
+          <div class="profile-bar">
+            <div class="click">
+              <img
+                src="./assets/icons/notifications.png"
+                alt="notification-icon"
+                class="notification-icon"
+              />
+            </div>
+            <div class="click">
+              <img
+                src="./assets/images/tiny-rick.jpeg"
+                alt="tiny-rick"
+                class="profile-pic-small"
+              />
+            </div>
+            <div class="click">Tiny Rick!</div>
+          </div>
+        </div>
+
+        <div class="bottom-header">
+          <div class="profile-display">
+            <div class="click">
+              <img
+                src="./assets/images/tiny-rick.jpeg"
+                alt="tiny-rick"
+                class="profile-pic-large"
+              />
+            </div>
+            <div class="name-greeting">
+              <div class="greeting">Hi there,</div>
+              <div class="name">Rick Sanchez (@tinyrick)</div>
+            </div>
+          </div>
+          <div class="make-post">
+            <button class="head-button click">New</button>
+            <button class="head-button click">Upload</button>
+            <button class="head-button click">Share</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="project-display">
+          <div class="project-section-heading">Your Projects</div>
+          <div class="projects-container">
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">Portal Gun Project</div>
+                <div class="project-description">
+                  The Portal Gun is a gadget that allows the user(s) to travel
+                  between different universes/dimensions/realities. The device
+                  was likely created by a Rick, although it is unknown which
+                  one.
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/star-plus-outline.png"
+                      alt="favorite-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/eye-plus-outline.png"
+                      alt="save-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/source-fork.png"
+                      alt="fork-project"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">Butter Passing Robot</div>
+                <div class="project-description">
+                  The Butter-Passing Robot clearly exists because Rick Sanchez
+                  wants to prove his intelligence, because who else would create
+                  a semi-conscious entity for the sole purpose of being the most
+                  useless waiter in existence?
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/star-plus-outline.png"
+                      alt="favorte-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/eye-plus-outline.png"
+                      alt="save-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/source-fork.png"
+                      alt="fork-project"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">Microverse Car Battery</div>
+                <div class="project-description">
+                  Instead of being a regular person and finding some sensible
+                  way to power his car, Rick chooses to devise a complex battery
+                  system involving a micro-universe, within which he is treated
+                  as a God.
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/star-plus-outline.png"
+                      alt="favorite-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/eye-plus-outline.png"
+                      alt="save-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/source-fork.png"
+                      alt="fork-project"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">Pickle Rick</div>
+                <div class="project-description">
+                  To avoid going to a psychologist, Rick morphs himself into a
+                  pickle, but finds himself in one when he is forced to make his
+                  way through the sewers, battling cockroaches and rats.
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/star-plus-outline.png"
+                      alt="favorite-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/eye-plus-outline.png"
+                      alt="save-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/source-fork.png"
+                      alt="fork-project"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">The Ionic Defibulizer</div>
+                <div class="project-description">
+                  After Rick Cronenbergs the entirety of C-137 Earth, he and
+                  Morty flee to an alternate reality in which the two of them
+                  had been already killed. The Rick in this dimension invents an
+                  Ionic Defibulizer, and his Morty actually passes him the
+                  screwdriver, which results in a massive explosion.
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/star-plus-outline.png"
+                      alt="favorite-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/eye-plus-outline.png"
+                      alt="save-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/source-fork.png"
+                      alt="fork-project"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">Mr. Meseeks</div>
+                <div class="project-description">
+                  For some reason, Rick thinks it prudent to allow his family to
+                  use his Meseeks box, hoping that it might distract them. While
+                  Beth and Summer's entities quickly disappear after the
+                  completion of their task, it's clear that there is no way
+                  Jerry's golf-themed demand can be fulfilled very easily.
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/star-plus-outline.png"
+                      alt="favorite-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/eye-plus-outline.png"
+                      alt="save-post"
+                    />
+                  </li>
+                  <li class="interact-option">
+                    <img
+                      src="./assets/icons/source-fork.png"
+                      alt="fork-project"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="announcements-section">
+          <div class="announcements-section-heading">Announcements</div>
+          <div class="announcements-container">
+            <div class="announcement-heading">Site Maintenance</div>
+            <div class="announcement-description">
+              Wubalubadubdub my glib-globs!
+            </div>
+            <hr />
+            <div class="announcement-heading">Community Share Day</div>
+            <div class="announcement-description">Grass...tastes bad</div>
+            <hr />
+            <div class="announcement-heading">Updated Privacy Policy</div>
+            <div class="announcement-description">
+              First, you take the dinglepop, and you smooth it out with a bunch
+              of schleem. The schleem is then repurposed for later batches.
+            </div>
+          </div>
+        </div>
+
+        <div class="trending-profiles-section">
+          <div class="announcements-section-heading">Trending</div>
+          <div class="trending-container">
+            <div class="trending-profile">
+              <div>
+                <img
+                  src="./assets/images/mr-oooh-wee.png"
+                  alt="poopy-man"
+                  class="profile-pic-small"
+                />
+              </div>
+              <div class="trending-profile-info">
+                <div class="trending-username">@mrpoopybutthole</div>
+                <div class="trending-project">oooh weee!</div>
+              </div>
+            </div>
+            <div class="trending-profile">
+              <div>
+                <img
+                  src="./assets/images/tiny-rick.jpeg"
+                  alt="tiny-rick"
+                  class="profile-pic-small"
+                />
+              </div>
+              <div class="trending-profile-info">
+                <div class="trending-username">@tinyrick</div>
+                <div class="trending-project">I'm Tiny Rick!</div>
+              </div>
+            </div>
+            <div class="trending-profile">
+              <div>
+                <img
+                  src="./assets/images/plumbus.jpeg"
+                  alt="plumbus"
+                  class="profile-pic-small"
+                />
+              </div>
+              <div class="trending-profile-info">
+                <div class="trending-username">@theplumbus</div>
+                <div class="trending-project">
+                  Everyone has a plumbus in their home!
+                </div>
+              </div>
+            </div>
+            <div class="trending-profile">
+              <div>
+                <img
+                  src="./assets/images/pickle-rick.jpeg"
+                  alt="pickle-rick"
+                  class="profile-pic-small"
+                />
+              </div>
+              <div class="trending-profile-info">
+                <div class="trending-username">@picklerick</div>
+                <div class="trending-project">I'm a pickle!</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
